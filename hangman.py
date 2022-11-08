@@ -10,7 +10,7 @@ def get_word(words):
     return word.upper()
 
 
-def hangman():
+def main():
     word = get_word(words)
     word_letters = set(word)
     alphabet = set(string.ascii_uppercase)
@@ -46,4 +46,4 @@ def hangman():
         print(f"Out of lives, you can try again\nBTW the word was {word}")
 
 
-hangman()
+main()
