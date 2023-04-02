@@ -1,4 +1,0 @@
-Hello 3
-
-Hi change #2
-Hi change #3
